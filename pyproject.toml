@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "SuperMarketing"
+dynamic = ["version"]
+description = "SuperMarketing Framework - AI-powered marketing automation and optimization for Claude Code"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Marketing Team", email = "contact@supermarketing.ai"},
+]
+requires-python = ">=3.8"
+dependencies = [
+    "setuptools>=45.0.0",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Marketing Professionals",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Marketing",
+    "Topic :: Marketing :: Analytics",
+    "Topic :: Marketing :: Automation",
+]
+
+[project.urls]
+Homepage = "https://github.com/SuperMarketing/SuperMarketing_Framework"
+Repository = "https://github.com/SuperMarketing/SuperMarketing_Framework"
+"Bug Tracker" = "https://github.com/SuperMarketing/SuperMarketing_Framework/issues"
+Documentation = "https://supermarketing.ai/docs"
+
+[project.scripts]
+SuperMarketing = "SuperMarketing.__main__:main"
+supermarketing = "SuperMarketing.__main__:main"
+
+[tool.hatch.version]
+path = "VERSION"
+pattern = "(?P<version>.*)"
+
+[tool.hatch.build.targets.wheel]
+packages = ["SuperMarketing"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "SuperMarketing/",
+    "config/",
+    "profiles/",
+    "setup/",
+    "VERSION",
+    "README.md",
+    "LICENSE",
+    "MANIFEST.in",
+]

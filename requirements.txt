@@ -1,0 +1,13 @@
+# SuperMarketing Framework Requirements
+# Python 3.8+ required
+
+# Core dependencies
+setuptools>=65.0.0
+
+# Optional: For development
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
+
+# Note: The framework primarily uses built-in Python libraries
+# Additional dependencies are handled by the installer
