@@ -1,0 +1,154 @@
+{
+  "name": "TechFlow Solutions",
+  "domain": "techflow.io",
+  "industry": "B2B SaaS",
+  "established": "2021",
+  "company_size": "50-100",
+  
+  "positioning": {
+    "statement": "The intelligent workflow automation platform that scales with your team",
+    "category": "Innovation Leader",
+    "differentiators": [
+      "AI-powered automation without complexity",
+      "30-minute setup vs weeks for competitors",
+      "No-code solution with developer-friendly APIs"
+    ]
+  },
+  
+  "brand_personality": {
+    "archetype": "The Sage",
+    "traits": ["Innovative", "Reliable", "Approachable", "Expert"],
+    "values": ["Simplicity", "Innovation", "Customer Success", "Transparency"]
+  },
+  
+  "voice_and_tone": {
+    "voice": "Knowledgeable yet approachable, confident without arrogance",
+    "principles": [
+      "Lead with value, not features",
+      "Use data to support claims",
+      "Speak human, not corporate",
+      "Be helpful, not salesy"
+    ],
+    "tone_variations": {
+      "social_media": "Friendly, helpful, occasionally playful with tech humor",
+      "email": "Personal, consultative, value-focused",
+      "website": "Clear, authoritative, benefit-driven",
+      "ads": "Bold, problem-solving, urgency without pressure",
+      "support": "Patient, empathetic, solution-oriented"
+    },
+    "vocabulary": {
+      "use": ["streamline", "accelerate", "empower", "transform", "optimize"],
+      "avoid": ["revolutionary", "disrupt", "synergy", "leverage", "bleeding-edge"]
+    }
+  },
+  
+  "visual_identity": {
+    "primary_colors": ["#4F46E5", "#6366F1"],
+    "secondary_colors": ["#F3F4F6", "#111827"],
+    "accent_colors": ["#10B981", "#F59E0B"],
+    "fonts": {
+      "heading": "Inter Bold",
+      "body": "Inter Regular",
+      "code": "Fira Code"
+    },
+    "logo_usage": "Minimum 24px height, 20px clearance on all sides",
+    "imagery_style": "Clean interfaces, abstract geometric patterns, diverse professionals"
+  },
+  
+  "target_audience": {
+    "primary": {
+      "description": "Operations leaders at scaling tech companies",
+      "demographics": "30-45, urban tech hubs, bachelor's+",
+      "psychographics": "Process-oriented, data-driven, innovation adopters",
+      "pain_points": [
+        "Manual processes slowing growth",
+        "Data silos across tools",
+        "Difficulty scaling operations",
+        "High cost of custom solutions"
+      ],
+      "goals": [
+        "Reduce operational overhead by 50%",
+        "Improve team productivity",
+        "Eliminate repetitive tasks",
+        "Better data visibility"
+      ]
+    },
+    "secondary": {
+      "description": "IT directors and developers",
+      "demographics": "28-50, global, technical background",
+      "psychographics": "Technical evaluators, security-conscious",
+      "pain_points": [
+        "Integration complexity",
+        "Security requirements",
+        "Maintenance burden",
+        "Vendor lock-in concerns"
+      ],
+      "goals": [
+        "Easy integration with existing stack",
+        "Robust API access",
+        "Enterprise-grade security",
+        "Scalable architecture"
+      ]
+    }
+  },
+  
+  "competitors": [
+    {
+      "name": "Zapier",
+      "strengths": ["Market leader", "Huge integration library", "Brand recognition"],
+      "weaknesses": ["Complex pricing", "Limited customization", "Steep learning curve"],
+      "our_advantage": "AI-powered suggestions, simpler UX, 60% lower cost"
+    },
+    {
+      "name": "Make (Integromat)",
+      "strengths": ["Visual builder", "Powerful features", "Good for developers"],
+      "weaknesses": ["Complex for non-technical users", "European-focused", "Limited support"],
+      "our_advantage": "No-code friendly, better support, US-based"
+    },
+    {
+      "name": "Workato",
+      "strengths": ["Enterprise features", "Strong security", "Recipe library"],
+      "weaknesses": ["Very expensive", "Enterprise-only", "Long implementation"],
+      "our_advantage": "SMB-friendly pricing, instant setup, same security standards"
+    }
+  ],
+  
+  "messaging": {
+    "tagline": "Workflow Automation That Just Works",
+    "value_proposition": "The only automation platform that combines enterprise power with startup simplicity",
+    "elevator_pitch": "TechFlow helps growing companies automate their operations in minutes, not months. Unlike complex enterprise tools or limited consumer apps, we provide powerful automation that's actually easy to use, at a price that makes sense.",
+    "key_messages": {
+      "primary": "Automate any workflow in under 30 minutes",
+      "supporting": [
+        "Trusted by 5,000+ growing companies",
+        "Save 15+ hours per week per employee",
+        "ROI in under 60 days",
+        "No code required, API included"
+      ]
+    },
+    "proof_points": [
+      "500% average ROI in year one",
+      "4.8/5 star rating on G2",
+      "50% reduction in operational costs",
+      "2 million workflows automated monthly"
+    ]
+  },
+  
+  "content_themes": {
+    "thought_leadership": [
+      "The future of work automation",
+      "Building scalable operations",
+      "No-code vs low-code debate"
+    ],
+    "educational": [
+      "Automation best practices",
+      "Integration guides",
+      "Workflow templates"
+    ],
+    "social_proof": [
+      "Customer success stories",
+      "ROI case studies",
+      "Partner spotlights"
+    ]
+  }
+}

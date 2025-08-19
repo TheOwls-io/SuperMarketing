@@ -1,0 +1,224 @@
+{
+  "email_marketing": {
+    "benchmarks": {
+      "open_rate": 0.24,
+      "click_rate": 0.042,
+      "conversion_rate": 0.028,
+      "unsubscribe_rate": 0.0015,
+      "list_growth_rate": 0.05
+    },
+    "best_practices": {
+      "subject_line_length": "35-45 chars",
+      "preview_text_length": "40-90 chars",
+      "optimal_send_times": [
+        "Tuesday 10am EST",
+        "Wednesday 2pm EST",
+        "Thursday 11am EST"
+      ],
+      "frequency": "2-3 per week for engaged, 1 per week for general",
+      "personalization_lift": 0.15
+    },
+    "top_performing": {
+      "subject_patterns": [
+        "How [Company] saved [X hours] with automation",
+        "[Number]x ROI: [Customer] case study",
+        "Quick question about [specific pain point]"
+      ],
+      "cta_text": ["See How It Works", "Get Your Free Trial", "Book a Demo"],
+      "email_types": {
+        "welcome_series": 0.45,
+        "case_study": 0.38,
+        "product_update": 0.22,
+        "webinar_invite": 0.31
+      }
+    },
+    "segmentation_performance": {
+      "by_industry": {
+        "saas": 0.28,
+        "fintech": 0.31,
+        "ecommerce": 0.25
+      },
+      "by_company_size": {
+        "startup": 0.22,
+        "smb": 0.27,
+        "enterprise": 0.19
+      }
+    }
+  },
+  
+  "social_media": {
+    "platform_performance": {
+      "linkedin": {
+        "engagement_rate": 0.052,
+        "follower_growth": 0.08,
+        "best_post_times": [
+          "Tuesday 9am EST",
+          "Wednesday 12pm EST",
+          "Thursday 3pm EST"
+        ],
+        "content_mix": {
+          "educational": 0.35,
+          "thought_leadership": 0.25,
+          "product_updates": 0.15,
+          "customer_stories": 0.15,
+          "company_culture": 0.10
+        },
+        "top_formats": {
+          "native_video": 0.082,
+          "carousel": 0.061,
+          "single_image": 0.045,
+          "text_only": 0.038
+        }
+      },
+      "twitter": {
+        "engagement_rate": 0.028,
+        "best_post_times": [
+          "Weekdays 9am EST",
+          "Weekdays 5pm EST"
+        ],
+        "optimal_thread_length": "4-6 tweets",
+        "hashtag_performance": ["#NoCode", "#Automation", "#SaaS"]
+      },
+      "youtube": {
+        "avg_view_duration": "4:35",
+        "subscriber_conversion": 0.035,
+        "best_video_length": "5-8 minutes",
+        "top_topics": ["Tutorials", "Integrations", "Customer Stories"]
+      }
+    }
+  },
+  
+  "paid_advertising": {
+    "google_ads": {
+      "search": {
+        "avg_cpc": 3.85,
+        "avg_ctr": 0.045,
+        "conversion_rate": 0.035,
+        "quality_score": 8.2,
+        "top_keywords": [
+          "workflow automation software",
+          "zapier alternative",
+          "no code automation"
+        ]
+      },
+      "display": {
+        "avg_cpm": 8.50,
+        "avg_ctr": 0.0012,
+        "view_through_rate": 0.008
+      }
+    },
+    "linkedin_ads": {
+      "sponsored_content": {
+        "avg_cpc": 6.25,
+        "avg_ctr": 0.038,
+        "conversion_rate": 0.025,
+        "top_audiences": ["Operations Managers", "IT Directors", "CTOs"]
+      },
+      "message_ads": {
+        "open_rate": 0.52,
+        "response_rate": 0.08
+      }
+    },
+    "facebook_ads": {
+      "avg_cpm": 14.50,
+      "avg_ctr": 0.018,
+      "conversion_rate": 0.015,
+      "lookalike_performance": 0.022
+    },
+    "retargeting": {
+      "display_ctr": 0.008,
+      "conversion_rate": 0.045,
+      "optimal_frequency": 3.5
+    }
+  },
+  
+  "website": {
+    "conversion_rates": {
+      "homepage_to_trial": 0.06,
+      "landing_page_avg": 0.18,
+      "blog_to_trial": 0.025,
+      "demo_request": 0.12,
+      "pricing_to_trial": 0.22
+    },
+    "engagement": {
+      "avg_session_duration": "3:15",
+      "pages_per_session": 4.2,
+      "bounce_rate": 0.38,
+      "return_visitor_rate": 0.31
+    },
+    "top_converting_pages": [
+      "/free-trial",
+      "/roi-calculator",
+      "/case-studies",
+      "/integrations",
+      "/templates"
+    ],
+    "traffic_sources": {
+      "organic": 0.35,
+      "paid": 0.25,
+      "direct": 0.20,
+      "social": 0.12,
+      "referral": 0.08
+    }
+  },
+  
+  "content_marketing": {
+    "blog_performance": {
+      "avg_read_time": "5:45",
+      "social_shares": 45,
+      "conversion_rate": 0.022,
+      "comment_rate": 0.015
+    },
+    "content_types": {
+      "how_to_guides": {
+        "traffic_share": 0.35,
+        "conversion_rate": 0.028,
+        "avg_time_on_page": "6:20"
+      },
+      "case_studies": {
+        "traffic_share": 0.20,
+        "conversion_rate": 0.045,
+        "avg_time_on_page": "4:15"
+      },
+      "industry_reports": {
+        "traffic_share": 0.15,
+        "conversion_rate": 0.018,
+        "avg_time_on_page": "8:30"
+      }
+    },
+    "top_topics": [
+      "Automation best practices",
+      "Integration tutorials",
+      "ROI calculators",
+      "Industry trends",
+      "Customer success stories"
+    ],
+    "optimal_length": {
+      "blog_post": "1800-2500 words",
+      "case_study": "1200-1500 words",
+      "landing_page": "600-800 words"
+    }
+  },
+  
+  "sales_enablement": {
+    "demo_conversion": 0.35,
+    "trial_to_paid": 0.18,
+    "avg_sales_cycle": "21 days",
+    "touchpoints_to_close": 7,
+    "channel_attribution": {
+      "demo": 0.45,
+      "free_trial": 0.35,
+      "content": 0.20
+    }
+  },
+  
+  "customer_metrics": {
+    "nps_score": 52,
+    "csat_score": 4.6,
+    "ltv": 24000,
+    "cac": 2800,
+    "payback_period": "3.5 months",
+    "monthly_churn": 0.025,
+    "expansion_revenue": 0.15
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "personas": [
+    {
+      "id": "conscious_millennial",
+      "name": "Conscious Millennial Madison",
+      "age": "28-38",
+      "occupation": "Marketing Manager / Designer / Consultant",
+      
+      "demographics": {
+        "income": "$60k-90k",
+        "location": "Urban areas - NYC, LA, SF, Austin, Portland",
+        "education": "Bachelor's degree+",
+        "relationship": "Single or partnered, no kids/young kids",
+        "lifestyle": "Active, social, travel-oriented"
+      },
+      
+      "psychographics": {
+        "personality": "Thoughtful, trendy, socially conscious",
+        "values": ["Sustainability", "Authenticity", "Quality", "Social impact"],
+        "interests": ["Yoga/fitness", "Farmers markets", "Travel", "Art/culture"],
+        "media_habits": ["Instagram daily", "Pinterest for inspiration", "Podcasts", "Newsletter subscriber"]
+      },
+      
+      "shopping_behavior": {
+        "frequency": "Monthly fashion purchases",
+        "avg_order_value": 150,
+        "preferred_categories": ["Dresses", "Versatile basics", "Statement pieces"],
+        "decision_factors": [
+          "Sustainability credentials",
+          "Style and fit",
+          "Brand values alignment",
+          "Social proof/reviews"
+        ],
+        "deal_sensitivity": "Medium - will pay more for values alignment"
+      },
+      
+      "pain_points": [
+        "Hard to find stylish AND sustainable options",
+        "Skeptical of greenwashing claims",
+        "Limited time to research brands",
+        "Want pieces that last",
+        "Budget constraints for ethical fashion"
+      ],
+      
+      "goals": [
+        "Build a conscious wardrobe",
+        "Support brands that align with values",
+        "Look put-together and professional",
+        "Reduce environmental impact",
+        "Find versatile, timeless pieces"
+      },
+      
+      "preferred_channels": [
+        "Instagram (morning and evening)",
+        "Email (Tuesday/Thursday)",
+        "Pinterest (weekend browsing)",
+        "Brand website (direct shopping)"
+      ],
+      
+      "content_preferences": {
+        "formats": ["Outfit inspiration", "Behind-the-scenes", "Styling videos", "Impact reports"],
+        "topics": ["Capsule wardrobes", "Sustainable living", "Style tips", "Brand transparency"],
+        "influencers_follow": ["Micro-influencers", "Sustainable lifestyle bloggers"]
+      },
+      
+      "objections": [
+        "Is it really sustainable?",
+        "Will the quality last?",
+        "Is it worth the price?",
+        "Will it fit my body type?",
+        "Can I style it multiple ways?"
+      ],
+      
+      "messaging_that_resonates": [
+        "Transparency about materials and process",
+        "Real customer photos and reviews",
+        "Styling versatility examples",
+        "Impact metrics and certifications",
+        "Inclusive sizing and representation"
+      ],
+      
+      "quote": "I want my purchases to reflect my values without sacrificing my personal style."
+    },
+    {
+      "id": "trendy_gen_z",
+      "name": "Trendy Gen Z Zoe",
+      "age": "18-25",
+      "occupation": "Student / Entry-level professional / Creator",
+      
+      "demographics": {
+        "income": "$25k-50k",
+        "location": "College towns, urban areas",
+        "education": "In college or recent graduate",
+        "relationship": "Single or dating",
+        "lifestyle": "Social, digital-first, experience-focused"
+      },
+      
+      "psychographics": {
+        "personality": "Expressive, cause-driven, digitally native",
+        "values": ["Authenticity", "Social justice", "Self-expression", "Community"],
+        "interests": ["TikTok trends", "Thrifting", "Music festivals", "Social causes"],
+        "media_habits": ["TikTok hourly", "Instagram stories", "YouTube", "BeReal"]
+      },
+      
+      "shopping_behavior": {
+        "frequency": "Weekly browsing, monthly purchasing",
+        "avg_order_value": 75,
+        "preferred_categories": ["Trendy pieces", "Basics", "Accessories"],
+        "decision_factors": [
+          "Trending on social media",
+          "Price point",
+          "Unique/standout pieces",
+          "Brand authenticity"
+        ],
+        "deal_sensitivity": "High - actively seeks sales and codes"
+      },
+      
+      "pain_points": [
+        "Limited budget for sustainable fashion",
+        "FOMO on trends",
+        "Want unique pieces friends don't have",
+        "Sizing concerns when shopping online",
+        "Overwhelmed by choices"
+      ],
+      
+      "goals": [
+        "Express personal style affordably",
+        "Stay on-trend sustainably",
+        "Build social media-worthy outfits",
+        "Support authentic brands",
+        "Find deals on quality pieces"
+      },
+      
+      "preferred_channels": [
+        "TikTok (throughout day)",
+        "Instagram (stories and reels)",
+        "Text/SMS (for deals)",
+        "App (for exclusive drops)"
+      ],
+      
+      "content_preferences": {
+        "formats": ["Quick styling videos", "Haul content", "Get ready with me", "Behind the scenes"],
+        "topics": ["Trend reports", "Outfit challenges", "Thrift flips", "Brand values"],
+        "influencers_follow": ["TikTok creators", "Peer influencers", "Activists"]
+      },
+      
+      "objections": [
+        "Is it actually affordable?",
+        "Will it look good on me?",
+        "Is the brand just performative?",
+        "Will it ship in time?",
+        "What's the return policy?"
+      ],
+      
+      "messaging_that_resonates": [
+        "Limited drops and exclusivity",
+        "Student discounts",
+        "User-generated content",
+        "Trend alignment",
+        "Easy returns and exchanges"
+      ],
+      
+      "quote": "I want to look good and do good, but it has to fit my budget and my feed."
+    },
+    {
+      "id": "busy_mom",
+      "name": "Busy Mom Michelle",
+      "age": "32-45",
+      "occupation": "Working professional with children",
+      
+      "demographics": {
+        "income": "$75k-120k",
+        "location": "Suburbs of major cities",
+        "education": "Bachelor's degree",
+        "relationship": "Married with 1-3 children",
+        "lifestyle": "Family-focused, time-constrained, practical"
+      },
+      
+      "psychographics": {
+        "personality": "Practical, caring, efficiency-focused",
+        "values": ["Family", "Quality", "Convenience", "Health"],
+        "interests": ["Family activities", "Home organization", "Self-care", "Quick recipes"],
+        "media_habits": ["Facebook groups", "Instagram during breaks", "Email newsletters"]
+      },
+      
+      "shopping_behavior": {
+        "frequency": "Seasonal wardrobe updates",
+        "avg_order_value": 200,
+        "preferred_categories": ["Versatile workwear", "Comfortable basics", "Special occasion"],
+        "decision_factors": [
+          "Quality and durability",
+          "Easy care instructions",
+          "Versatility",
+          "Return policy"
+        ],
+        "deal_sensitivity": "Medium - values quality over lowest price"
+      },
+      
+      "pain_points": [
+        "No time for shopping trips",
+        "Need clothes for multiple contexts",
+        "Body changes post-pregnancy",
+        "Want to model values for kids",
+        "Budget pressure from family expenses"
+      },
+      
+      "goals": [
+        "Efficient wardrobe that works for everything",
+        "Set good example for children",
+        "Feel put-together despite time constraints",
+        "Support responsible brands",
+        "Minimize decision fatigue"
+      },
+      
+      "preferred_channels": [
+        "Email (evening)",
+        "Facebook (lunch and evening)",
+        "Website (desktop shopping)",
+        "App (quick browse)"
+      ],
+      
+      "content_preferences": {
+        "formats": ["Styling guides", "Capsule wardrobes", "Customer reviews", "Size guides"],
+        "topics": ["Work-to-weekend styling", "Care instructions", "Outfit formulas", "Sales alerts"],
+        "influencers_follow": ["Mom bloggers", "Professional women", "Lifestyle experts"]
+      },
+      
+      "objections": [
+        "Will it require special care?",
+        "Can I wear it to work AND weekend?",
+        "Is the sizing consistent?",
+        "How's the return process?",
+        "Will it last?"
+      ],
+      
+      "messaging_that_resonates": [
+        "Machine washable",
+        "Day-to-night versatility",
+        "Real mom testimonials",
+        "Easy returns",
+        "Bundle deals"
+      ],
+      
+      "quote": "I need a wardrobe that works as hard as I do, looks good, and aligns with the values I'm teaching my kids."
+    }
+  ],
+  
+  "persona_journey_mapping": {
+    "conscious_millennial": {
+      "discovery": "Instagram, Pinterest, blog posts",
+      "research": "Website deep-dive, reviews, about page",
+      "consideration": "Email nurture, retargeting ads",
+      "purchase": "Promo code trigger, new arrival",
+      "retention": "Loyalty program, values content"
+    },
+    "trendy_gen_z": {
+      "discovery": "TikTok, peer recommendation",
+      "research": "User-generated content, reviews",
+      "consideration": "Limited-time offers, social proof",
+      "purchase": "Flash sale, exclusive drop",
+      "retention": "Early access, community engagement"
+    },
+    "busy_mom": {
+      "discovery": "Facebook groups, search",
+      "research": "Size guides, return policy",
+      "consideration": "Email with outfit ideas",
+      "purchase": "Seasonal sale, bundle offer",
+      "retention": "Convenience features, quality proof"
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "email_marketing": {
+    "benchmarks": {
+      "open_rate": 0.18,
+      "click_rate": 0.025,
+      "conversion_rate": 0.032,
+      "unsubscribe_rate": 0.002,
+      "revenue_per_email": 0.48
+    },
+    "best_practices": {
+      "subject_line_length": "25-40 chars",
+      "preview_text_length": "35-70 chars",
+      "optimal_send_times": [
+        "Sunday 8pm EST",
+        "Tuesday 2pm EST",
+        "Thursday 8pm EST"
+      ],
+      "frequency": "3-4 per week for engaged, 1-2 for general",
+      "personalization_lift": 0.22
+    },
+    "top_performing": {
+      "subject_patterns": [
+        "✨ [Product] just dropped",
+        "Your style inspo for [Season]",
+        "[Name], your cart misses you 💚"
+      ],
+      "cta_text": ["Shop Now", "Get Yours", "Claim Your Style"],
+      "email_types": {
+        "new_arrival": 0.042,
+        "abandoned_cart": 0.18,
+        "sale_announcement": 0.065,
+        "style_guide": 0.028
+      }
+    }
+  },
+  
+  "social_media": {
+    "platform_performance": {
+      "instagram": {
+        "engagement_rate": 0.038,
+        "follower_growth": 0.12,
+        "best_post_times": [
+          "Weekdays 7am EST",
+          "Lunch 12pm EST",
+          "Evening 7pm EST"
+        ],
+        "content_mix": {
+          "product_shots": 0.25,
+          "user_generated": 0.30,
+          "lifestyle": 0.20,
+          "behind_scenes": 0.15,
+          "educational": 0.10
+        },
+        "top_formats": {
+          "reels": 0.085,
+          "carousel": 0.045,
+          "stories": 0.062,
+          "single_image": 0.032
+        },
+        "hashtag_performance": [
+          "#SustainableFashion",
+          "#ConsciousStyle",
+          "#SlowFashion",
+          "#EthicalFashion"
+        ]
+      },
+      "tiktok": {
+        "engagement_rate": 0.065,
+        "best_post_times": [
+          "Early morning 6am EST",
+          "After school 3pm EST",
+          "Late night 10pm EST"
+        ],
+        "viral_rate": 0.002,
+        "avg_views": 15000,
+        "top_content": ["OOTD", "Hauls", "Styling tips", "Behind the scenes"]
+      },
+      "pinterest": {
+        "monthly_views": 850000,
+        "engagement_rate": 0.025,
+        "save_rate": 0.018,
+        "click_through": 0.012,
+        "top_boards": ["Sustainable Style", "Capsule Wardrobe", "Eco Fashion"]
+      }
+    }
+  },
+  
+  "paid_advertising": {
+    "facebook_instagram": {
+      "avg_cpm": 18.50,
+      "avg_cpc": 1.25,
+      "avg_ctr": 0.022,
+      "conversion_rate": 0.028,
+      "roas": 3.2,
+      "top_audiences": [
+        "Lookalike - High LTV customers",
+        "Interest - Sustainable living",
+        "Behavior - Online fashion shoppers"
+      ]
+    },
+    "google_ads": {
+      "shopping": {
+        "avg_cpc": 0.85,
+        "conversion_rate": 0.035,
+        "roas": 4.5
+      },
+      "search": {
+        "avg_cpc": 2.15,
+        "conversion_rate": 0.042,
+        "top_keywords": [
+          "sustainable fashion brands",
+          "ethical clothing",
+          "eco friendly clothes"
+        ]
+      }
+    },
+    "tiktok_ads": {
+      "avg_cpm": 12.00,
+      "avg_ctr": 0.035,
+      "conversion_rate": 0.018,
+      "best_format": "User-generated style content"
+    },
+    "influencer": {
+      "micro_influencer_roi": 5.2,
+      "macro_influencer_roi": 2.8,
+      "avg_engagement": 0.045,
+      "conversion_rate": 0.038
+    }
+  },
+  
+  "website": {
+    "conversion_rates": {
+      "overall": 0.028,
+      "mobile": 0.032,
+      "desktop": 0.024,
+      "new_visitor": 0.018,
+      "returning_visitor": 0.065,
+      "email_traffic": 0.082,
+      "social_traffic": 0.035,
+      "paid_traffic": 0.028
+    },
+    "engagement": {
+      "avg_session_duration": "3:45",
+      "pages_per_session": 5.2,
+      "bounce_rate": 0.42,
+      "cart_abandonment": 0.68,
+      "product_page_time": "1:20"
+    },
+    "top_converting_pages": [
+      "/collections/new-arrivals",
+      "/collections/sale",
+      "/sustainability",
+      "/size-guide",
+      "/reviews"
+    ]
+  },
+  
+  "customer_metrics": {
+    "avg_order_value": 125,
+    "ltv": 450,
+    "purchase_frequency": 3.6,
+    "repeat_rate": 0.35,
+    "referral_rate": 0.12,
+    "nps_score": 68,
+    "review_rate": 0.15,
+    "avg_rating": 4.8
+  },
+  
+  "product_performance": {
+    "category_conversion": {
+      "dresses": 0.035,
+      "tops": 0.028,
+      "bottoms": 0.025,
+      "outerwear": 0.042,
+      "accessories": 0.038
+    },
+    "price_point_performance": {
+      "under_50": 0.045,
+      "50_100": 0.032,
+      "100_200": 0.028,
+      "over_200": 0.022
+    },
+    "return_rate": 0.08,
+    "exchange_rate": 0.05
+  },
+  
+  "seasonal_patterns": {
+    "q1": {
+      "traffic_index": 0.85,
+      "conversion_rate": 0.025,
+      "aov": 110
+    },
+    "q2": {
+      "traffic_index": 0.95,
+      "conversion_rate": 0.028,
+      "aov": 95
+    },
+    "q3": {
+      "traffic_index": 0.90,
+      "conversion_rate": 0.030,
+      "aov": 85
+    },
+    "q4": {
+      "traffic_index": 1.30,
+      "conversion_rate": 0.035,
+      "aov": 145
+    },
+    "peak_days": [
+      "Black Friday",
+      "Cyber Monday",
+      "Earth Day",
+      "Back to School"
+    ]
+  },
+  
+  "loyalty_program": {
+    "enrollment_rate": 0.42,
+    "active_rate": 0.65,
+    "redemption_rate": 0.28,
+    "member_aov_lift": 1.35,
+    "member_frequency_lift": 1.8,
+    "tier_distribution": {
+      "bronze": 0.60,
+      "silver": 0.30,
+      "gold": 0.10
+    }
+  }
+}

@@ -58,31 +58,52 @@ Simple actionable rules for SuperMarketing framework operation.
 - **Overpromise**: Set realistic expectations
 - **Waste Budget**: Kill underperforming campaigns
 
+## Brand Context Loading Rules
+
+### Automatic Brand Loading
+- Check for active_brand.json on every command
+- Load brand context if brand is active
+- Apply brand voice, metrics, and personas automatically
+- Fall back to generic if no brand active
+- Cache brand data for performance (1 hour default)
+
+### Brand Data Priority
+1. **Command-specific overrides** (highest priority)
+2. **Active brand context** (standard priority)
+3. **Default framework values** (fallback)
+
+### Brand Context Usage
+- `/sm:create` → Use @brand.voice and @brand.visual_identity
+- `/sm:campaign` → Reference @brand.campaigns and @brand.metrics
+- `/sm:analyze` → Compare against @brand.metrics baselines
+- `/sm:optimize` → Apply @brand.ab_tests winners
+- `/sm:personalize` → Use @brand.personas profiles
+
 ## Persona Auto-Activation Rules
 
 ### Content Tasks
-- Writing copy → copywriter persona
-- Visual design → creative persona
-- Blog/SEO content → content persona
-- Social media → social persona
+- Writing copy → copywriter persona + @brand.voice
+- Visual design → creative persona + @brand.visual_identity
+- Blog/SEO content → content persona + @brand.content_themes
+- Social media → social persona + @brand.voice.social_media
 
 ### Analytics Tasks
-- Performance analysis → analyst persona
-- Conversion optimization → growth persona
-- ROI calculation → analyst persona
-- Attribution → analyst persona
+- Performance analysis → analyst persona + @brand.metrics
+- Conversion optimization → growth persona + @brand.ab_tests
+- ROI calculation → analyst persona + @brand.metrics.roi
+- Attribution → analyst persona + @brand.metrics.attribution
 
 ### Strategic Tasks
-- Campaign planning → strategist persona
-- Brand work → brand persona
-- Market research → strategist + analyst
-- Positioning → brand + strategist
+- Campaign planning → strategist persona + @brand.campaigns
+- Brand work → brand persona + @brand.positioning
+- Market research → strategist + analyst + @brand.competitors
+- Positioning → brand + strategist + @brand.messaging
 
 ### Channel-Specific Tasks
-- Email campaigns → email persona
-- Paid advertising → paid persona
-- SEO optimization → seo persona
-- Social media → social persona
+- Email campaigns → email persona + @brand.metrics.email
+- Paid advertising → paid persona + @brand.metrics.paid
+- SEO optimization → seo persona + @brand.metrics.seo
+- Social media → social persona + @brand.metrics.social
 
 ## Quality Standards
 

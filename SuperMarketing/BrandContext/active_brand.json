@@ -1,0 +1,13 @@
+{
+  "active": null,
+  "available_brands": [
+    "example_tech_startup",
+    "example_ecommerce"
+  ],
+  "last_updated": "2024-08-19T00:00:00Z",
+  "settings": {
+    "auto_load": true,
+    "fallback_to_generic": true,
+    "cache_duration": 3600
+  }
+}

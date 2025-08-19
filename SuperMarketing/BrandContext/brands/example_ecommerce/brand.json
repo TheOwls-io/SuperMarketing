@@ -1,0 +1,168 @@
+{
+  "name": "StyleVibe",
+  "domain": "stylevibe.com",
+  "industry": "Fashion E-commerce",
+  "established": "2019",
+  "company_size": "25-50",
+  
+  "positioning": {
+    "statement": "Sustainable fashion that doesn't compromise on style",
+    "category": "Premium Sustainable Fashion",
+    "differentiators": [
+      "100% sustainable materials with luxury feel",
+      "Carbon-neutral shipping on all orders",
+      "Lifetime warranty on all products",
+      "1% of revenue to environmental causes"
+    ]
+  },
+  
+  "brand_personality": {
+    "archetype": "The Explorer",
+    "traits": ["Conscious", "Stylish", "Authentic", "Adventurous", "Caring"],
+    "values": ["Sustainability", "Quality", "Transparency", "Community", "Style"]
+  },
+  
+  "voice_and_tone": {
+    "voice": "Warm, inspiring, and effortlessly cool",
+    "principles": [
+      "Celebrate conscious choices",
+      "Make sustainability desirable",
+      "Be inclusive and welcoming",
+      "Inspire without preaching"
+    ],
+    "tone_variations": {
+      "social_media": "Playful, trendy, community-focused",
+      "email": "Personal friend sharing style tips",
+      "website": "Elegant, informative, inspiring",
+      "ads": "Eye-catching, benefit-driven, FOMO-inducing",
+      "customer_service": "Helpful, understanding, above-and-beyond"
+    },
+    "vocabulary": {
+      "use": ["curated", "timeless", "conscious", "elevated", "versatile"],
+      "avoid": ["cheap", "trendy", "fast fashion", "sacrifice", "guilt"]
+    }
+  },
+  
+  "visual_identity": {
+    "primary_colors": ["#2D5F3F", "#F7E7CE"],
+    "secondary_colors": ["#E8B4B8", "#A67C52"],
+    "accent_colors": ["#D4A574", "#FFFFFF"],
+    "fonts": {
+      "heading": "Playfair Display",
+      "body": "Montserrat Light",
+      "accent": "Amatic SC"
+    },
+    "photography_style": "Natural lighting, diverse models, lifestyle settings, earth tones",
+    "logo_usage": "Minimum 15px padding, never on busy backgrounds"
+  },
+  
+  "target_audience": {
+    "primary": {
+      "description": "Conscious millennials with disposable income",
+      "demographics": "25-40, urban/suburban, $50k-100k income",
+      "psychographics": "Value-driven shoppers, Instagram-active, quality over quantity",
+      "pain_points": [
+        "Want sustainable options without sacrificing style",
+        "Overwhelmed by greenwashing",
+        "Limited time for shopping",
+        "Desire unique pieces, not mass market"
+      ],
+      "goals": [
+        "Express personal style consciously",
+        "Support ethical brands",
+        "Build capsule wardrobe",
+        "Make positive environmental impact"
+      ]
+    },
+    "secondary": {
+      "description": "Gen Z trend-conscious consumers",
+      "demographics": "18-25, students/young professionals, $25k-50k",
+      "psychographics": "Social media natives, cause-driven, budget-conscious",
+      "pain_points": [
+        "Limited budget for sustainable fashion",
+        "Want to stand out from peers",
+        "Need versatile pieces",
+        "Skeptical of brand claims"
+      ],
+      "goals": [
+        "Affordable sustainable options",
+        "Instagram-worthy outfits",
+        "Support authentic brands",
+        "Express values through purchases"
+      ]
+    }
+  },
+  
+  "competitors": [
+    {
+      "name": "Reformation",
+      "strengths": ["Strong brand", "Celebrity endorsements", "Trendy designs"],
+      "weaknesses": ["Higher prices", "Limited sizing", "US-focused"],
+      "our_advantage": "More inclusive sizing, better price point, lifetime warranty"
+    },
+    {
+      "name": "Everlane",
+      "strengths": ["Radical transparency", "Basics focus", "Strong values"],
+      "weaknesses": ["Limited style range", "Conservative designs", "Minimal marketing"],
+      "our_advantage": "Trendier designs, better social presence, community focus"
+    },
+    {
+      "name": "Patagonia",
+      "strengths": ["Environmental leadership", "Quality", "Brand loyalty"],
+      "weaknesses": ["Outdoor-focused", "Higher prices", "Limited fashion appeal"],
+      "our_advantage": "Fashion-forward, broader appeal, competitive pricing"
+    }
+  ],
+  
+  "messaging": {
+    "tagline": "Style That Matters",
+    "value_proposition": "Premium sustainable fashion that makes you look good and feel even better",
+    "elevator_pitch": "StyleVibe creates timeless, sustainable fashion for conscious consumers who refuse to compromise on style. Every piece is crafted from eco-friendly materials, backed by our lifetime warranty, and ships carbon-neutral.",
+    "key_messages": {
+      "primary": "Look good, feel good, do good",
+      "supporting": [
+        "100% sustainable, 100% stylish",
+        "Lifetime warranty on every piece",
+        "Join 50,000+ conscious fashionistas",
+        "Carbon-neutral from studio to doorstep"
+      ]
+    },
+    "proof_points": [
+      "50,000+ happy customers",
+      "4.8/5 average review rating",
+      "500,000 lbs of textile waste prevented",
+      "10,000 trees planted through partnerships"
+    ]
+  },
+  
+  "content_themes": {
+    "educational": [
+      "Sustainable fashion guides",
+      "Capsule wardrobe building",
+      "Fabric care and longevity"
+    ],
+    "inspirational": [
+      "Customer style stories",
+      "Behind the scenes content",
+      "Environmental impact reports"
+    ],
+    "promotional": [
+      "Seasonal collections",
+      "Limited editions",
+      "Member exclusives"
+    ],
+    "community": [
+      "Style challenges",
+      "User-generated content",
+      "Local meetups and events"
+    ]
+  },
+  
+  "seasonal_focus": {
+    "spring": "Fresh starts, pastels, lightweight layers",
+    "summer": "Beach-ready, breathable fabrics, vacation capsules",
+    "fall": "Cozy layers, earth tones, back-to-routine",
+    "winter": "Statement coats, gift guides, party pieces",
+    "year_round": "Essentials, basics, timeless pieces"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "campaign_id": "2024_q1_product_launch",
+  "name": "AI Assistant Feature Launch",
+  "date_range": "2024-01-15 to 2024-02-15",
+  "budget": 75000,
+  "channels": ["email", "linkedin", "google_ads", "content"],
+  
+  "objectives": {
+    "primary": "Generate 1000 qualified trials",
+    "secondary": [
+      "Increase brand awareness by 25%",
+      "Generate 50 enterprise demos",
+      "Achieve 20% trial-to-paid conversion"
+    ],
+    "kpis": {
+      "trials": 1000,
+      "cost_per_trial": 75,
+      "demo_requests": 50,
+      "email_engagement": 0.30
+    }
+  },
+  
+  "targeting": {
+    "personas": ["ops_leader", "it_director"],
+    "industries": ["SaaS", "Fintech", "E-commerce"],
+    "company_size": "100-1000 employees",
+    "geo": "North America"
+  },
+  
+  "creative": {
+    "theme": "Work Smarter, Not Harder",
+    "key_message": "AI that actually understands your workflows",
+    "value_props": [
+      "Set up complex automations in plain English",
+      "AI suggests optimizations based on your data",
+      "Reduce automation setup time by 80%"
+    ]
+  },
+  
+  "results": {
+    "trials_generated": 1247,
+    "cost_per_trial": 60.18,
+    "demo_requests": 73,
+    "conversion_rate": 0.045,
+    "trial_to_paid": 0.22,
+    "revenue_generated": 185000,
+    "roi": 2.47
+  },
+  
+  "performance_by_channel": {
+    "email": {
+      "sent": 85000,
+      "opens": 22100,
+      "open_rate": 0.26,
+      "clicks": 1768,
+      "ctr": 0.08,
+      "conversions": 312,
+      "cost": 5000,
+      "cpa": 16.03
+    },
+    "linkedin": {
+      "impressions": 750000,
+      "clicks": 11250,
+      "ctr": 0.015,
+      "conversions": 423,
+      "cost": 28000,
+      "cpa": 66.19
+    },
+    "google_ads": {
+      "impressions": 500000,
+      "clicks": 8500,
+      "ctr": 0.017,
+      "conversions": 387,
+      "cost": 32000,
+      "cpa": 82.69
+    },
+    "content": {
+      "blog_views": 45000,
+      "time_on_page": "6:20",
+      "conversions": 125,
+      "cost": 10000,
+      "cpa": 80.00
+    }
+  },
+  
+  "top_performing_elements": {
+    "email_subjects": [
+      "🤖 Your AI automation assistant is here (32% open rate)",
+      "How CompanyX saved 20 hours/week with AI automation (28% open rate)",
+      "[First Name], ready to 10x your productivity? (26% open rate)"
+    ],
+    "ad_copy": {
+      "headline": "Automate Any Workflow in Plain English",
+      "description": "No coding required. Just describe what you need.",
+      "cta": "Start Free Trial"
+    },
+    "landing_pages": {
+      "ai-assistant-v3": {
+        "conversion_rate": 0.22,
+        "bounce_rate": 0.32
+      },
+      "roi-calculator": {
+        "conversion_rate": 0.18,
+        "bounce_rate": 0.38
+      }
+    },
+    "content_pieces": [
+      "The Complete Guide to AI-Powered Automation (2,500 views, 45 conversions)",
+      "ROI Calculator: What's Your Automation Worth? (1,800 views, 38 conversions)",
+      "Customer Story: 500% ROI in 60 Days (1,200 views, 25 conversions)"
+    ]
+  },
+  
+  "audience_insights": {
+    "best_performing_segments": {
+      "ops_leaders_saas": {
+        "conversion_rate": 0.062,
+        "ltv": 28000
+      },
+      "it_directors_fintech": {
+        "conversion_rate": 0.048,
+        "ltv": 32000
+      }
+    },
+    "time_patterns": {
+      "best_email_time": "Tuesday 10am EST",
+      "best_ad_performance": "Weekdays 9am-11am EST",
+      "lowest_cpa_day": "Wednesday"
+    }
+  },
+  
+  "learnings": [
+    "AI messaging resonated 3x better than generic automation",
+    "Video demos increased conversion by 45%",
+    "Operations leaders converted 30% better than IT directors",
+    "LinkedIn sponsored InMail outperformed feed ads by 2x",
+    "ROI calculator was highest converting content piece",
+    "Mobile traffic converted at 1.5x desktop rate"
+  ],
+  
+  "optimizations_made": {
+    "week_1": "Shifted budget from display to LinkedIn after initial results",
+    "week_2": "Updated landing page headline based on ad performance",
+    "week_3": "Increased email frequency to high-engagement segments",
+    "week_4": "Added video to landing pages, improved conversion 45%"
+  },
+  
+  "recommendations": [
+    "Continue AI-focused messaging in future campaigns",
+    "Invest more in video content creation",
+    "Build more interactive tools like ROI calculator",
+    "Focus on operations leader persona",
+    "Test LinkedIn conversation ads in next campaign",
+    "Create more customer success content"
+  ]
+}

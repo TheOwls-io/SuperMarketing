@@ -9,3 +9,4 @@ Welcome to SuperMarketing - AI-powered marketing automation and optimization fra
 @CAMPAIGNS.md
 @PRINCIPLES.md
 @RULES.md
+@../BrandContext/BRAND_CONTEXT.md

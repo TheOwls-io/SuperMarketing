@@ -1,0 +1,127 @@
+{
+  "test_id": "email_subject_ai_2024_01",
+  "test_name": "AI vs Automation Messaging",
+  "test_type": "email_subject_line",
+  "hypothesis": "AI-focused messaging will outperform generic automation messaging",
+  "date": "2024-01-20",
+  "duration": "7 days",
+  "sample_size": 20000,
+  "confidence_level": 0.95,
+  
+  "test_setup": {
+    "audience": "Engaged email list - Operations leaders",
+    "split": "50/50",
+    "success_metric": "click_through_rate",
+    "minimum_detectable_effect": 0.15
+  },
+  
+  "variants": [
+    {
+      "id": "control",
+      "name": "Generic Automation",
+      "subject": "Automate Your Workflows in Minutes",
+      "preview_text": "No coding required. Start your free trial today.",
+      "sent": 10000,
+      "opens": 2100,
+      "open_rate": 0.21,
+      "clicks": 168,
+      "ctr": 0.08,
+      "conversions": 15,
+      "conversion_rate": 0.0015
+    },
+    {
+      "id": "variant_a",
+      "name": "AI Focus",
+      "subject": "🤖 AI That Understands Your Workflows",
+      "preview_text": "Just describe what you need in plain English",
+      "sent": 10000,
+      "opens": 2600,
+      "open_rate": 0.26,
+      "clicks": 312,
+      "ctr": 0.12,
+      "conversions": 35,
+      "conversion_rate": 0.0035,
+      "winner": true
+    }
+  ],
+  
+  "results": {
+    "winner": "variant_a",
+    "statistical_significance": true,
+    "p_value": 0.001,
+    "confidence_interval": [0.18, 0.32],
+    "lift": {
+      "open_rate": 0.238,
+      "ctr": 0.50,
+      "conversion_rate": 1.33
+    }
+  },
+  
+  "insights": [
+    "AI messaging increased open rates by 24%",
+    "Click-through rate improved by 50% with AI focus",
+    "Emoji in subject line contributed to higher open rate",
+    "Plain English messaging resonated with ops leaders",
+    "Conversion rate more than doubled with AI positioning"
+  ],
+  
+  "segmentation_analysis": {
+    "by_company_size": {
+      "50-200": {
+        "control_ctr": 0.07,
+        "variant_ctr": 0.11,
+        "lift": 0.57
+      },
+      "200-500": {
+        "control_ctr": 0.08,
+        "variant_ctr": 0.13,
+        "lift": 0.625
+      },
+      "500+": {
+        "control_ctr": 0.09,
+        "variant_ctr": 0.12,
+        "lift": 0.33
+      }
+    },
+    "by_engagement": {
+      "highly_engaged": {
+        "control_ctr": 0.12,
+        "variant_ctr": 0.18,
+        "lift": 0.50
+      },
+      "moderately_engaged": {
+        "control_ctr": 0.06,
+        "variant_ctr": 0.10,
+        "lift": 0.67
+      }
+    }
+  },
+  
+  "implementation": {
+    "status": "Rolled out to all campaigns",
+    "date_implemented": "2024-01-28",
+    "applied_to": [
+      "All email campaigns",
+      "Landing page headlines",
+      "Ad copy",
+      "Sales materials"
+    ]
+  },
+  
+  "follow_up_tests": [
+    {
+      "test_id": "email_subject_ai_benefits_2024_02",
+      "hypothesis": "Specific AI benefits will outperform generic AI messaging"
+    },
+    {
+      "test_id": "landing_page_ai_hero_2024_02",
+      "hypothesis": "AI-focused hero section will improve conversion"
+    }
+  ],
+  
+  "business_impact": {
+    "estimated_annual_lift": 285000,
+    "additional_trials": 450,
+    "calculation": "Based on 50% CTR improvement across all email campaigns"
+  }
+}

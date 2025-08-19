@@ -61,6 +61,9 @@ SuperMarketing transforms Claude Code into a comprehensive marketing assistant b
 - `/sm:launch` - Campaign launch checklists
 - `/sm:audit` - Marketing audits and compliance
 
+### Brand Management (NEW!)
+- `/sm:brand` - Manage brand context for personalized outputs
+
 ## Installation 📦
 
 ### Prerequisites
@@ -111,6 +114,54 @@ SuperMarketing install --profile marketing-team
 # See all options
 SuperMarketing install --help
 ```
+
+## Brand Context System 🎯 (NEW!)
+
+SuperMarketing now includes a powerful Brand Context System that personalizes all marketing outputs based on your brand's unique data:
+
+### What It Does
+- **Automatic Customization**: All commands use your brand's voice, style, and proven strategies
+- **Historical Learning**: Leverages past campaign performance and A/B test results
+- **Persona Integration**: Uses your actual customer personas for targeting
+- **Performance Baselines**: Compares results against your brand's benchmarks
+
+### Quick Setup
+1. **Drop Your Brand Data**
+   ```bash
+   # Navigate to BrandContext directory
+   cd SuperMarketing/BrandContext/brands/
+   
+   # Create your brand folder
+   mkdir your_brand
+   
+   # Add your brand files (see examples provided)
+   - brand.json      # Your brand identity
+   - metrics.json    # Performance baselines
+   - personas.json   # Customer profiles
+   ```
+
+2. **Activate Your Brand**
+   ```
+   /sm:brand activate your_brand
+   ```
+
+3. **All Commands Now Use Your Brand!**
+   ```
+   /sm:create email campaign
+   # Automatically uses your brand voice, best subject lines, optimal send times
+   
+   /sm:analyze performance
+   # Compares against your historical benchmarks
+   
+   /sm:optimize landing-page
+   # Applies your proven A/B test winners
+   ```
+
+### Example Brand Profiles Included
+- **Tech Startup** (B2B SaaS): Complete profile with campaigns and tests
+- **E-commerce** (Fashion): Full brand setup with seasonal data
+
+See `BrandContext/BRAND_CONTEXT.md` for complete documentation.
 
 ## Quick Start 🚀
 

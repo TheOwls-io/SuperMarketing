@@ -1,0 +1,278 @@
+{
+  "personas": [
+    {
+      "id": "ops_leader",
+      "name": "Operations Leader Olivia",
+      "role": "VP of Operations / COO",
+      "company_size": "100-500 employees",
+      
+      "demographics": {
+        "age": "35-45",
+        "income": "$120k-180k",
+        "education": "Bachelor's/MBA",
+        "location": "San Francisco, NYC, Austin, Seattle"
+      },
+      
+      "psychographics": {
+        "personality": "Strategic, process-oriented, results-driven",
+        "values": ["Efficiency", "Scalability", "Team empowerment", "Data-driven decisions"],
+        "lifestyle": "Busy professional, continuous learner, work-life balance seeker",
+        "media_consumption": ["LinkedIn", "Harvard Business Review", "Operations podcasts"]
+      },
+      
+      "pain_points": [
+        "Manual processes consuming 40% of team's time",
+        "Data scattered across 10+ different tools",
+        "Inability to scale operations with headcount",
+        "Lack of visibility into process bottlenecks",
+        "High cost of custom development solutions"
+      ],
+      
+      "goals": [
+        "Reduce operational costs by 30%",
+        "Scale operations without proportional headcount increase",
+        "Improve process efficiency by 50%",
+        "Real-time visibility into all workflows",
+        "Empower team to build their own automations"
+      ],
+      
+      "objections": [
+        "Implementation will disrupt current operations",
+        "Team won't adopt new technology",
+        "Security and compliance concerns",
+        "Hidden costs and complexity",
+        "Vendor lock-in fears"
+      ],
+      
+      "preferred_channels": [
+        "Email (Tuesday/Thursday mornings)",
+        "LinkedIn (daily check-ins)",
+        "Webinars (lunch hours)",
+        "Industry reports and white papers"
+      ],
+      
+      "content_preferences": {
+        "formats": ["ROI calculators", "Case studies", "Implementation guides", "Webinars"],
+        "topics": [
+          "Operational excellence",
+          "Scaling strategies",
+          "Process optimization",
+          "Team productivity"
+        ],
+        "tone": "Professional, data-backed, solution-focused"
+      },
+      
+      "buying_journey": {
+        "awareness": "Realizes manual processes are limiting growth",
+        "consideration": "Researches automation platforms, reads reviews, attends webinars",
+        "evaluation": "Requests demos, involves IT team, runs pilot program",
+        "decision": "Builds business case, gets budget approval, negotiates contract",
+        "trigger_events": [
+          "Failed project due to manual errors",
+          "New funding round",
+          "Competitor advantage",
+          "Team burnout complaints"
+        ]
+      },
+      
+      "messaging_angles": [
+        "Save 15+ hours per week per team member",
+        "Scale operations without adding headcount",
+        "See ROI in under 60 days",
+        "No coding required - empower your whole team"
+      ],
+      
+      "quote": "I need to do more with less while keeping my team happy and productive."
+    },
+    {
+      "id": "it_director",
+      "name": "IT Director Isaac",
+      "role": "Director of IT / CTO",
+      "company_size": "100-500 employees",
+      
+      "demographics": {
+        "age": "32-48",
+        "income": "$130k-200k",
+        "education": "BS Computer Science/Engineering",
+        "location": "Tech hubs globally"
+      },
+      
+      "psychographics": {
+        "personality": "Analytical, cautious, detail-oriented",
+        "values": ["Security", "Reliability", "Innovation", "Best practices"],
+        "lifestyle": "Tech enthusiast, problem solver, lifelong learner",
+        "media_consumption": ["Hacker News", "TechCrunch", "GitHub", "Stack Overflow"]
+      },
+      
+      "pain_points": [
+        "Too many point solutions creating integration nightmares",
+        "Security vulnerabilities from shadow IT",
+        "Maintaining custom integrations is resource-intensive",
+        "Lack of API documentation from vendors",
+        "Compliance and data governance challenges"
+      ],
+      
+      "goals": [
+        "Consolidate and simplify tech stack",
+        "Ensure enterprise-grade security",
+        "Enable self-service for business users",
+        "Reduce technical debt",
+        "Maintain SOC2/ISO compliance"
+      ],
+      
+      "objections": [
+        "Another tool to integrate and maintain",
+        "Security and data privacy concerns",
+        "API limitations",
+        "Performance at scale",
+        "Lack of customization options"
+      ],
+      
+      "preferred_channels": [
+        "Technical documentation",
+        "Developer forums",
+        "Email (technical newsletters)",
+        "Product Hunt",
+        "GitHub"
+      ],
+      
+      "content_preferences": {
+        "formats": ["API documentation", "Technical demos", "Architecture diagrams", "Security white papers"],
+        "topics": [
+          "Integration capabilities",
+          "Security architecture",
+          "API design",
+          "Performance benchmarks",
+          "Compliance certifications"
+        ],
+        "tone": "Technical, precise, detailed"
+      },
+      
+      "buying_journey": {
+        "awareness": "Discovers through developer communities or peer recommendations",
+        "consideration": "Reviews technical documentation, tests API, security audit",
+        "evaluation": "POC implementation, performance testing, security review",
+        "decision": "Technical approval, vendor assessment, contract review",
+        "trigger_events": [
+          "Security incident",
+          "Failed integration project",
+          "Compliance audit",
+          "Major system upgrade"
+        ]
+      },
+      
+      "messaging_angles": [
+        "Enterprise-grade security (SOC2, ISO 27001)",
+        "RESTful API with comprehensive documentation",
+        "99.9% uptime SLA",
+        "Open architecture, no vendor lock-in"
+      ],
+      
+      "quote": "I need solutions that are secure, scalable, and won't create more technical debt."
+    },
+    {
+      "id": "growth_marketer",
+      "name": "Growth Marketer Maya",
+      "role": "Head of Growth / Marketing Manager",
+      "company_size": "50-200 employees",
+      
+      "demographics": {
+        "age": "28-38",
+        "income": "$80k-130k",
+        "education": "Bachelor's in Marketing/Business",
+        "location": "Urban centers, remote-friendly"
+      },
+      
+      "psychographics": {
+        "personality": "Creative, data-driven, experimental",
+        "values": ["Innovation", "ROI", "Customer experience", "Agility"],
+        "lifestyle": "Digital native, side hustles, continuous experimenter",
+        "media_consumption": ["Product Hunt", "Growth Hackers", "Marketing Twitter", "Reforge"]
+      },
+      
+      "pain_points": [
+        "Manual data collection eating up 30% of time",
+        "Can't track full customer journey",
+        "Slow campaign execution",
+        "Limited personalization capabilities",
+        "Difficulty proving marketing ROI"
+      ],
+      
+      "goals": [
+        "Automate repetitive marketing tasks",
+        "Improve attribution and ROI tracking",
+        "Scale personalization efforts",
+        "Reduce time to campaign launch",
+        "Better lead scoring and nurturing"
+      },
+      
+      "objections": [
+        "Learning curve for team",
+        "Integration with MarTech stack",
+        "Cost vs. current tools",
+        "Customization limitations"
+      ],
+      
+      "preferred_channels": [
+        "Product Hunt",
+        "LinkedIn",
+        "Marketing communities",
+        "Podcasts",
+        "Free trials"
+      ],
+      
+      "content_preferences": {
+        "formats": ["Growth case studies", "Tactical guides", "Templates", "Video tutorials"],
+        "topics": [
+          "Growth hacking tactics",
+          "Marketing automation",
+          "Conversion optimization",
+          "Lead generation"
+        ],
+        "tone": "Practical, actionable, results-focused"
+      },
+      
+      "buying_journey": {
+        "awareness": "Discovers through peer recommendation or content",
+        "consideration": "Signs up for free trial immediately",
+        "evaluation": "Tests with real campaigns, measures results",
+        "decision": "Proves ROI, gets budget approval",
+        "trigger_events": [
+          "Missed growth targets",
+          "Competitor success",
+          "New product launch",
+          "Team scaling"
+        ]
+      },
+      
+      "messaging_angles": [
+        "10x your marketing efficiency",
+        "Launch campaigns 5x faster",
+        "Integrate with your entire MarTech stack",
+        "See what's actually driving revenue"
+      ],
+      
+      "quote": "I need to move fast and show measurable impact on revenue."
+    }
+  ],
+  
+  "persona_mapping": {
+    "by_stage": {
+      "awareness": ["growth_marketer"],
+      "consideration": ["ops_leader", "growth_marketer"],
+      "evaluation": ["it_director", "ops_leader"],
+      "decision": ["ops_leader", "it_director"]
+    },
+    "by_content": {
+      "technical": ["it_director"],
+      "strategic": ["ops_leader"],
+      "tactical": ["growth_marketer"]
+    },
+    "by_channel": {
+      "email": ["ops_leader", "it_director"],
+      "social": ["growth_marketer", "ops_leader"],
+      "search": ["it_director", "growth_marketer"],
+      "content": ["ops_leader", "growth_marketer"]
+    }
+  }
+}
