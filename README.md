@@ -129,6 +129,15 @@ Once installed, use the marketing commands in Claude Code:
 
 ### Testing Your Installation
 
+#### Before Copying Files
+```bash
+# Run the test script to verify the package is working
+python3 test_installation.py
+
+# Should show all green checkmarks if properly configured
+```
+
+#### After Installation
 ```bash
 # Check if files are in place
 ls ~/.claude/SuperMarketing/Core/

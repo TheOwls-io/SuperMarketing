@@ -14,16 +14,58 @@ FRAMEWORK_VERSION = __version__
 COMMAND_PREFIX = "/sm:"
 INSTALL_DIR = "~/.claude/SuperMarketing"
 
-# Framework components
-from . import Core
-from . import Commands
-from . import Templates
+# Available components (as strings, not imports)
+COMPONENTS = [
+    'Core',
+    'Commands',
+    'BrandContext',
+    'Templates'
+]
+
+# Marketing personas
+PERSONAS = [
+    'strategist',
+    'copywriter',
+    'creative',
+    'content',
+    'analyst',
+    'growth',
+    'seo',
+    'social',
+    'email',
+    'paid',
+    'brand'
+]
+
+# Marketing commands
+COMMANDS = [
+    'campaign',
+    'strategy',
+    'research',
+    'create',
+    'optimize',
+    'personalize',
+    'analyze',
+    'measure',
+    'report',
+    'forecast',
+    'test',
+    'workflow',
+    'calendar',
+    'brief',
+    'collaborate',
+    'launch',
+    'audit',
+    'brand'
+]
 
 __all__ = [
-    "Core",
-    "Commands", 
-    "Templates",
     "__version__",
     "FRAMEWORK_NAME",
+    "FRAMEWORK_VERSION",
     "COMMAND_PREFIX",
+    "INSTALL_DIR",
+    "COMPONENTS",
+    "PERSONAS",
+    "COMMANDS"
 ]
