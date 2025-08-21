@@ -158,8 +158,32 @@ SuperMarketing now includes a powerful Brand Context System that personalizes al
 - **Historical Learning**: Leverages past campaign performance and A/B test results
 - **Persona Integration**: Uses your actual customer personas for targeting
 - **Performance Baselines**: Compares results against your brand's benchmarks
+- **URL Import**: Automatically extract brand info from any website
 
-### Quick Setup
+### Quick Setup Options
+
+#### Option 1: Import from Website (NEW! 🚀)
+```bash
+# Automatically extract brand info from any URL
+python3 -m SuperMarketing brand-import --url https://yourbrand.com
+
+# Specify custom brand name
+python3 -m SuperMarketing brand-import --url https://yourbrand.com --name "Your Brand"
+
+# For better extraction, install optional dependencies:
+pip install beautifulsoup4 requests cssutils
+```
+
+The scraper will extract:
+- Brand name and domain
+- Meta descriptions and taglines
+- Colors from CSS (primary/secondary)
+- Font families
+- Social media links
+- Logo URLs
+- Key messaging
+
+#### Option 2: Manual Setup
 1. **Drop Your Brand Data**
    ```bash
    # Navigate to BrandContext directory

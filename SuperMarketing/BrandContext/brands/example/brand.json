@@ -1,0 +1,87 @@
+{
+  "name": "Example",
+  "domain": "example.com",
+  "industry": "",
+  "established": "",
+  "company_size": "",
+  "positioning": {
+    "statement": "",
+    "category": "",
+    "differentiators": []
+  },
+  "brand_personality": {
+    "archetype": "",
+    "traits": [],
+    "values": []
+  },
+  "voice_and_tone": {
+    "voice": "",
+    "principles": [],
+    "tone_variations": {
+      "social_media": "",
+      "email": "",
+      "website": "",
+      "ads": ""
+    },
+    "vocabulary": {
+      "use": [],
+      "avoid": []
+    }
+  },
+  "visual_identity": {
+    "primary_colors": [],
+    "secondary_colors": [],
+    "fonts": {
+      "heading": "",
+      "body": ""
+    },
+    "logo_usage": "",
+    "imagery_style": ""
+  },
+  "target_audience": {
+    "primary": {
+      "description": "",
+      "demographics": "",
+      "psychographics": "",
+      "pain_points": [],
+      "goals": []
+    },
+    "secondary": {
+      "description": "",
+      "demographics": "",
+      "psychographics": "",
+      "pain_points": [],
+      "goals": []
+    }
+  },
+  "competitors": [],
+  "messaging": {
+    "tagline": "",
+    "value_proposition": "",
+    "elevator_pitch": "",
+    "key_messages": {
+      "primary": "",
+      "supporting": []
+    }
+  },
+  "_extraction_notes": {
+    "status": "template",
+    "message": "To enable full extraction, install: pip install beautifulsoup4 requests cssutils",
+    "manual_review_needed": [
+      "Industry classification",
+      "Company size",
+      "Target audience details",
+      "Competitor identification",
+      "Brand personality assessment"
+    ],
+    "auto_extractable": [
+      "Domain and basic info",
+      "Meta tags (description, keywords)",
+      "Colors from CSS",
+      "Fonts from CSS",
+      "Images and logos",
+      "Social media links",
+      "Contact information"
+    ]
+  }
+}

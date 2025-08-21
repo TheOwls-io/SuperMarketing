@@ -20,6 +20,7 @@ Examples:
   SuperMarketing install        # Install framework (coming soon)
   SuperMarketing help           # Show installation instructions
   SuperMarketing version        # Show version information
+  SuperMarketing brand-import   # Import brand from URL
         """
     )
     
@@ -27,7 +28,7 @@ Examples:
         'command',
         nargs='?',
         default='help',
-        choices=['install', 'update', 'uninstall', 'help', 'version'],
+        choices=['install', 'update', 'uninstall', 'help', 'version', 'brand-import'],
         help='Command to execute'
     )
     
@@ -35,6 +36,19 @@ Examples:
         '--verbose', '-v',
         action='store_true',
         help='Enable verbose output'
+    )
+    
+    # Brand import arguments
+    parser.add_argument(
+        '--url',
+        type=str,
+        help='URL to import brand from'
+    )
+    
+    parser.add_argument(
+        '--name',
+        type=str,
+        help='Brand name (optional, extracted from domain if not provided)'
     )
     
     args = parser.parse_args()
@@ -50,6 +64,8 @@ Examples:
         print_install_instructions()
     elif args.command == 'uninstall':
         print_uninstall_instructions()
+    elif args.command == 'brand-import':
+        import_brand_from_url(args)
     else:
         parser.print_help()
 
@@ -77,11 +93,12 @@ SuperMarketing transforms Claude Code into a comprehensive marketing assistant
 with specialized personas, campaign management tools, and brand context.
 
 COMMANDS:
-  install     Install the framework (manual process for now)
-  update      Update the framework (coming soon)
-  uninstall   Remove the framework
-  help        Show this help message
-  version     Show version information
+  install       Install the framework (manual process for now)
+  update        Update the framework (coming soon)
+  uninstall     Remove the framework
+  brand-import  Import brand from website URL
+  help          Show this help message
+  version       Show version information
 
 INSTALLATION:
   The automated installer is in development. For now, use manual installation:
@@ -95,10 +112,17 @@ INSTALLATION:
   3. Use marketing commands in Claude Code:
      /sm:campaign, /sm:create, /sm:analyze, /sm:brand, etc.
 
+BRAND IMPORT:
+  Import brand configuration from a website:
+  
+  python3 -m SuperMarketing brand-import --url https://example.com
+  python3 -m SuperMarketing brand-import --url https://example.com --name "Brand Name"
+
 FEATURES:
   • 17 Marketing Commands (/sm:*)
   • 11 Marketing Personas
   • Brand Context System
+  • Automatic Brand Import from URL
   • Campaign Management
   • Content Creation
   • Analytics & Reporting
@@ -173,6 +197,45 @@ To remove SuperMarketing from your system:
 The framework has been removed. You can reinstall at any time
 by following the installation instructions.
     """)
+
+
+def import_brand_from_url(args):
+    """Import brand configuration from a URL"""
+    if not args.url:
+        print("\n❌ Error: URL is required for brand import")
+        print("\nUsage:")
+        print("  python3 -m SuperMarketing brand-import --url https://example.com")
+        print("  python3 -m SuperMarketing brand-import --url https://example.com --name 'Brand Name'")
+        return
+    
+    try:
+        from SuperMarketing.BrandContext.brand_scraper import create_brand_from_url
+        
+        print(f"\n🔍 Analyzing website: {args.url}")
+        print("=" * 50)
+        
+        # Import the brand
+        output_path = create_brand_from_url(args.url, args.name)
+        
+        print("\n📋 Next Steps:")
+        print("1. Review and edit the generated brand.json file")
+        print(f"   Location: {output_path}")
+        print("2. Add metrics.json and personas.json for complete profile")
+        print("3. Copy to ~/.claude/SuperMarketing/BrandContext/brands/")
+        print("4. Activate in Claude Code with: /sm:brand activate <brand_name>")
+        
+        print("\n💡 Tip: For better extraction, install:")
+        print("   pip install beautifulsoup4 requests cssutils")
+        
+    except ImportError as e:
+        print(f"\n❌ Import error: {e}")
+        print("\nThe brand scraper module requires the SuperMarketing package to be properly installed.")
+        print("Make sure you're in the SuperMarketing_Framework directory.")
+    except Exception as e:
+        print(f"\n❌ Error importing brand: {e}")
+        if args.verbose:
+            import traceback
+            traceback.print_exc()
 
 
 if __name__ == '__main__':
