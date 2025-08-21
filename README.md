@@ -71,48 +71,73 @@ SuperMarketing transforms Claude Code into a comprehensive marketing assistant b
 - pip (Python package manager)
 - Access to ~/.claude directory
 
-### Step 1: Install the Package
+### Installation Steps
 
-Choose your preferred installation method:
+Since SuperMarketing is not yet on PyPI, install from source:
 
-#### Method 1: pip (Recommended)
 ```bash
-# From PyPI
-pip install SuperMarketing
-
-# Or from source
-git clone https://github.com/SuperMarketing/SuperMarketing_Framework.git
-cd SuperMarketing_Framework
-pip install -e .
-```
-
-#### Method 2: pip with requirements.txt
-```bash
-# Clone the repo
-git clone https://github.com/SuperMarketing/SuperMarketing_Framework.git
+# Clone the repository
+git clone https://github.com/TheOwls-io/SuperMarketing.git
 cd SuperMarketing_Framework
 
-# Install dependencies
+# Install dependencies (optional, minimal deps)
 pip install -r requirements.txt
-
-# Install package
-pip install -e .
 ```
 
-### Step 2: Run the Installer
+### Setup Options
+
+#### Option 1: Use the CLI Helper
+```bash
+# Get installation instructions
+python3 -m SuperMarketing help
+
+# View version
+python3 -m SuperMarketing version
+
+# Get install instructions
+python3 -m SuperMarketing install
+```
+
+#### Option 2: Manual Setup
+```bash
+# Create the directory structure
+mkdir -p ~/.claude/SuperMarketing
+
+# Copy the framework files
+cp -r SuperMarketing ~/.claude/
+
+# Verify installation
+ls -la ~/.claude/SuperMarketing/
+```
+
+### Using the Framework
+
+Once installed, use the marketing commands in Claude Code:
 
 ```bash
-# Standard installation
-SuperMarketing install
+# In Claude Code, use commands like:
+/sm:campaign plan --budget 50000
+/sm:create email --audience b2b
+/sm:analyze performance --period last-month
+/sm:brand activate your_brand
 
-# Interactive mode (choose components)
-SuperMarketing install --interactive
+# Brand Context Commands:
+/sm:brand init                    # Initialize brand directory
+/sm:brand activate your_brand     # Activate a brand
+/sm:brand list                    # List available brands
+```
 
-# Marketing team profile
-SuperMarketing install --profile marketing-team
+### Testing Your Installation
 
-# See all options
-SuperMarketing install --help
+```bash
+# Check if files are in place
+ls ~/.claude/SuperMarketing/Core/
+ls ~/.claude/SuperMarketing/Commands/
+ls ~/.claude/SuperMarketing/BrandContext/brands/
+
+# View example brands
+ls ~/.claude/SuperMarketing/BrandContext/brands/example_tech_startup/
+ls ~/.claude/SuperMarketing/BrandContext/brands/example_ecommerce/
 ```
 
 ## Brand Context System 🎯 (NEW!)
